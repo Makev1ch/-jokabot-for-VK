@@ -101,7 +101,7 @@ def main(page: ft.Page):
     status_text = ft.Text("Готов к работе", text_align=ft.TextAlign.CENTER)
     countdown_text = ft.Text("Время до следующего поста: 52", text_align=ft.TextAlign.CENTER)
 
-    gif_image = ft.Image(src=gif_url, width=1400, height=390)
+    gif_image = ft.Image(src=gif_url, width=1400, height=342)
 
     start_button = ft.ElevatedButton("Запустить", on_click=lambda e: start_joke_generation(status_text, countdown_text, start_button))
 
